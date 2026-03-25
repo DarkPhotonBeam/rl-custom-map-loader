@@ -6,7 +6,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . CustomMapLoader --overwrite --platform=win32 --arch=x64 --out=builds --prune --ignore=\"config.json\" --ignore=\"installers\" --icon=./installers/octane.icns --extra-resource=../resources/workshop-textures.zip --version-string.CompanyName=Lethamyr --version-string.FileDescription=Lethamyr --version-string.ProductName=\"Custom Map Loader\"",
+    "build": "electron-packager . CustomMapLoader --overwrite --platform=win32 --arch=x64 --out=builds --prune --ignore=\"config.json\" --ignore=\"installers\" --icon=./installers/octane.icns --version-string.CompanyName=Lethamyr --version-string.FileDescription=Lethamyr --version-string.ProductName=\"Custom Map Loader\"",
     "installer": "node ./installers/createWindowsInstaller.js"
   },
   "repository": "https://github.com/NoxPhoenix/custom-map-loader",
